@@ -210,7 +210,7 @@ export default function Navbar() {
 
             {/* Mobile CTA */}
             <NavLink
-              to="/contact"
+              to="mailto:nisansolutions@gmail.com?subject=Consultation Request"
               className="bg-blue-600 text-white text-center py-2 rounded-lg mt-4"
             >
               Get Consultation
