@@ -110,7 +110,7 @@ export default function Navbar() {
 
             {/* CTA */}
             <NavLink
-              to="/contact"
+              to="mailto:nisansolutions@gmail.com?subject=Consultation Request"
               className="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition"
             >
               Get Consultation

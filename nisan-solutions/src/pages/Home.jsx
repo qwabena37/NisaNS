@@ -162,7 +162,7 @@ Expert construction solutions and consultancy services designed to build your vi
             <span className="text-blue-300"> Intelligent Solutions</span>
           </h1>
 
-          <p className="mt-6 text-blue-100 text-lg leading-relaxed">
+          <p className="mt-8 text-blue-100 text-lg leading-relaxed">
             Nisan Solutions bridges the gap between complex business problems
             and cutting-edge technology using AI, advanced analytics, and
             scalable software solutions.
@@ -315,9 +315,12 @@ Expert construction solutions and consultancy services designed to build your vi
           demonstrate its impact, and implement solutions that deliver real ROI.
         </p>
 
-        <button className="mt-8 bg-white text-blue-900 px-8 py-3 rounded-lg font-medium hover:bg-blue-100 transition">
-          Schedule Consultation
-        </button>
+        <a
+  href="mailto:nisansolutions@gmail.com?subject=Consultation Request&body=Hello Nisan Solutions,%0D%0A%0D%0AI would like to schedule a consultation."
+  className="mt-8 inline-block bg-white text-blue-900 px-8 py-3 rounded-lg font-medium hover:bg-blue-100 transition"
+>
+  Schedule Consultation
+</a>
       </section>
 
     </div>
