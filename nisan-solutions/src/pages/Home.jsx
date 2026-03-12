@@ -83,7 +83,7 @@ export default function Home() {
 
       {/* HERO SECTION */}
 
-      <section className="relative h-[90vh] flex items-center justify-center text-center px-6 overflow-hidden">
+      <section className="relative h-[100vh] flex items-center justify-center text-center px-6 overflow-hidden">
 
         <img
           src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
@@ -157,7 +157,7 @@ Expert construction solutions and consultancy services designed to build your vi
           transition={{ duration: 1 }}
           className="relative z-10 max-w-4xl"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+          <h1 className="mt-8 text-4xl md:text-6xl font-bold text-white">
             Transforming Business Challenges Into
             <span className="text-blue-300"> Intelligent Solutions</span>
           </h1>

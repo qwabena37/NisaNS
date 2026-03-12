@@ -48,7 +48,7 @@ export default function Solutions() {
     <section className="min-h-screen bg-white text-gray-900 overflow-hidden">
 
       {/* Hero Header */}
-      <div className="relative h-[500px] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[650px] flex items-center justify-center overflow-hidden">
 
         <img
           src="./images/solutions.avif"

@@ -59,7 +59,7 @@ export default function CaseStudies() {
 
       {/* Hero Section */}
 
-      <section className="relative h-[500px] flex items-center justify-center text-center px-6 overflow-hidden">
+      <section className="relative h-[650px] flex items-center justify-center text-center px-6 overflow-hidden">
 
         <img
           src="./images/case.jpg"

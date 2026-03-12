@@ -50,7 +50,7 @@ export default function Process() {
     <section className="min-h-screen bg-white text-gray-900 overflow-hidden">
 
       {/* Header Section */}
-      <div className="relative h-[600px] flex items-center justify-center px-6 overflow-hidden">
+      <div className="relative h-[650px] flex items-center justify-center px-6 overflow-hidden">
 
         <img
           src="./images/process.jpg"

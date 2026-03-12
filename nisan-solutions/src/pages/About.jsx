@@ -31,7 +31,7 @@ export default function About() {
         <motion.img
           src="./images/s_about.jpg"
           alt="Nisan Solutions Technology"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-[800px] object-cover"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 6 }}
