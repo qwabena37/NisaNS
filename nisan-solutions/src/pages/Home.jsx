@@ -359,7 +359,7 @@ Expert construction solutions and consultancy services designed to build your vi
       </h3>
 
       <p className="mt-3 text-slate-700 font-medium">
-        Staff Trained on Proven Business Technical Principles
+        Staff Trained on Proven Technical Business Principles
       </p>
     </motion.div>
 
