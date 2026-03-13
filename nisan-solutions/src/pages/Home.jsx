@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { MdConstruction } from "react-icons/md";
 import { motion } from "framer-motion";
+import CountUp from "react-countup";
 
 export default function Home() {
   const [openContact, setOpenContact] = useState(null);
@@ -302,6 +303,7 @@ Expert construction solutions and consultancy services designed to build your vi
         </div>
       </section>
 
+
       {/* CTA */}
 
       <section className="bg-blue-900 py-24 text-center px-6">
@@ -322,6 +324,64 @@ Expert construction solutions and consultancy services designed to build your vi
   Schedule Consultation
 </a>
       </section>
+  {/* IMPACT / ACHIEVEMENTS */}
+
+<section className="bg-white py-20 px-6">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 text-center">
+
+    {/* Businesses */}
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="p-8 rounded-xl shadow-md"
+    >
+      <h3 className="text-4xl font-bold text-blue-600">
+        <CountUp end={200} duration={2} />+
+      </h3>
+
+      <p className="mt-3 text-slate-700 font-medium">
+        Businesses Improved
+      </p>
+    </motion.div>
+
+    {/* Staff Trained */}
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7 }}
+      viewport={{ once: true }}
+      className="p-8 rounded-xl shadow-md"
+    >
+      <h3 className="text-4xl font-bold text-blue-600">
+        <CountUp end={100} duration={2} />+
+      </h3>
+
+      <p className="mt-3 text-slate-700 font-medium">
+        Staff Trained on Proven Business Technical Principles
+      </p>
+    </motion.div>
+
+    {/* Strategic Solutions */}
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      className="p-8 rounded-xl shadow-md"
+    >
+      <h3 className="text-4xl font-bold text-blue-600">
+        <CountUp end={150} duration={2} />+
+      </h3>
+
+      <p className="mt-3 text-slate-700 font-medium">
+        Strategic Solutions Implemented
+      </p>
+    </motion.div>
+
+  </div>
+</section>
 
     </div>
   );
